@@ -1,4 +1,4 @@
-import Anthropic from '@anthropic-ai/sdk';
+import { GoogleGenerativeAI } from '@google/generative-ai';
 import type { Product, QuizAnswers, OutfitRecommendation } from '../types/product';
 
 const budgetLabels: Record<QuizAnswers['budget'], string> = {
@@ -12,13 +12,15 @@ export async function getOutfitRecommendation(
   answers: QuizAnswers,
   products: Product[]
 ): Promise<OutfitRecommendation> {
-  // Client-side API call per MVP spec (no backend). Key is exposed via Vite env.
-  const client = new Anthropic({
-    apiKey: import.meta.env.VITE_ANTHROPIC_API_KEY,
-    dangerouslyAllowBrowser: true,
+  const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY);
+
+  const model = genAI.getGenerativeModel({
+    model: 'gemini-2.0-flash',
+    systemInstruction:
+      'You are a gym outfit stylist for Fenix Fit Finder. You always respond with valid JSON only. No markdown. No explanation outside the JSON.',
   });
 
-  const userPrompt = `User profile:
+  const prompt = `User profile:
 - Workout type: ${answers.workout}
 - Budget per item: ${budgetLabels[answers.budget]}
 - Style vibe: ${answers.style}
@@ -44,16 +46,11 @@ Respond ONLY with this exact JSON structure:
   "accessory": { "id": "...", "reason": "one sentence why" }
 }`;
 
-  const message = await client.messages.create({
-    model: 'claude-sonnet-4-6',
-    max_tokens: 512,
-    system:
-      'You are a gym outfit stylist for Fenix Fit Finder. You always respond with valid JSON only. No markdown. No explanation outside the JSON.',
-    messages: [{ role: 'user', content: userPrompt }],
-  });
+  const result = await model.generateContent(prompt);
+  const text = result.response.text();
 
-  const content = message.content[0];
-  if (content.type !== 'text') throw new Error('Unexpected response type from Claude');
+  // Strip markdown code fences if Gemini wraps the JSON
+  const cleaned = text.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, '').trim();
 
-  return JSON.parse(content.text) as OutfitRecommendation;
+  return JSON.parse(cleaned) as OutfitRecommendation;
 }
