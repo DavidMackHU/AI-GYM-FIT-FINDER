@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import Groq from 'groq-sdk';
 import type { QuizAnswers } from '../src/types/product';
 
 const budgetLabels: Record<QuizAnswers['budget'], string> = {
@@ -23,17 +23,12 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(400).json({ error: 'Missing answers or products' });
   }
 
-  const apiKey = process.env.GEMINI_API_KEY;
+  const apiKey = process.env.GROQ_API_KEY;
   if (!apiKey) {
     return res.status(500).json({ error: 'Server misconfigured: missing API key' });
   }
 
-  const genAI = new GoogleGenerativeAI(apiKey);
-  const model = genAI.getGenerativeModel({
-    model: 'gemini-2.0-flash',
-    systemInstruction:
-      'You are a gym outfit stylist for Fenix Fit Finder. You always respond with valid JSON only. No markdown. No explanation outside the JSON.',
-  });
+  const groq = new Groq({ apiKey });
 
   const prompt = `User profile:
 - Workout type: ${answers.workout}
@@ -61,8 +56,21 @@ Respond ONLY with this exact JSON structure:
   "accessory": { "id": "...", "reason": "one sentence why" }
 }`;
 
-  const result = await model.generateContent(prompt);
-  const text = result.response.text();
+  const completion = await groq.chat.completions.create({
+    model: 'llama-3.3-70b-versatile',
+    messages: [
+      {
+        role: 'system',
+        content:
+          'You are a gym outfit stylist for Fenix Fit Finder. You always respond with valid JSON only. No markdown. No explanation outside the JSON.',
+      },
+      { role: 'user', content: prompt },
+    ],
+    max_tokens: 512,
+    temperature: 0,
+  });
+
+  const text = completion.choices[0].message.content ?? '';
   const cleaned = text.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, '').trim();
 
   res.json(JSON.parse(cleaned));
