@@ -9,8 +9,8 @@
     "workout": ["lifting", "general-gym", "hiit"],
     "budget_max": 50,
     "fit": ["regular", "slim"],
-    "affiliate_url": "https://www.amazon.com/dp/B07PLACEHOLDER1?tag=fenix-20",
-    "image_url": ""
+    "affiliate_url": "https://amzn.to/4ewgUCW",
+    "image_url": "https://m.media-amazon.com/images/I/51Zf3nlsatL._AC_SX679_.jpg"
   },
   {
     "id": "top-002",
@@ -22,8 +22,8 @@
     "workout": ["lifting", "hiit"],
     "budget_max": 50,
     "fit": ["regular", "slim"],
-    "affiliate_url": "https://www.amazon.com/dp/B07PLACEHOLDER2?tag=fenix-20",
-    "image_url": ""
+    "affiliate_url": "https://amzn.to/4eGDMhP",
+    "image_url": "https://m.media-amazon.com/images/I/51neGlTKAnL._AC_SX679_.jpg"
   },
   {
     "id": "top-003",
@@ -171,15 +171,15 @@
   {
     "id": "bot-002",
     "category": "bottom",
-    "name": "Gymshark Speed Shorts",
-    "price": 45,
+    "name": "Gradual Men's Gym Workout Shorts",
+    "price": 15,
     "gender": ["men"],
     "style": ["minimal", "all-black"],
     "workout": ["cardio", "hiit"],
     "budget_max": 50,
     "fit": ["slim", "regular"],
-    "affiliate_url": "https://www.amazon.com/dp/B07PLACEHOLDER14?tag=fenix-20",
-    "image_url": ""
+    "affiliate_url": "https://amzn.to/3SO6gil",
+    "image_url": "https://m.media-amazon.com/images/I/91wmZfiy7HL._AC_SX679_.jpg"
   },
   {
     "id": "bot-003",
@@ -314,15 +314,15 @@
   {
     "id": "shoe-001",
     "category": "shoes",
-    "name": "Nike Metcon 9 Training Shoe (Men)",
-    "price": 130,
+    "name": "Nike Metcon 9 Men's Workout Shoe",
+    "price": 120,
     "gender": ["men"],
     "style": ["minimal", "bold"],
     "workout": ["lifting", "hiit", "general-gym"],
     "budget_max": 200,
     "fit": ["regular"],
-    "affiliate_url": "https://www.amazon.com/dp/B07PLACEHOLDER25?tag=fenix-20",
-    "image_url": ""
+    "affiliate_url": "https://amzn.to/3SvgPHe",
+    "image_url": "https://m.media-amazon.com/images/I/71aybMrjmDL._AC_SY695_.jpg"
   },
   {
     "id": "shoe-002",
@@ -503,8 +503,8 @@
     "workout": ["lifting", "cardio", "hiit", "yoga", "general-gym"],
     "budget_max": 50,
     "fit": ["regular"],
-    "affiliate_url": "https://www.amazon.com/dp/B07PLACEHOLDER39?tag=fenix-20",
-    "image_url": ""
+    "affiliate_url": "https://amzn.to/4bbQ8gS",
+    "image_url": "https://m.media-amazon.com/images/I/61ykOOdcunL._AC_SL1500_.jpg"
   },
   {
     "id": "acc-004",
