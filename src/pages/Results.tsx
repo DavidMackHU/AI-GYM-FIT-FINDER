@@ -170,7 +170,7 @@ export default function Results() {
         <div className="flex items-center justify-between mb-5 px-1">
           <div>
             <span className="text-[#555555] text-xs">Outfit total </span>
-            <span className="text-white text-sm font-semibold">${totalPrice}</span>
+            <span className="text-white text-sm font-semibold">${totalPrice.toFixed(2)}</span>
           </div>
           <button
             onClick={handleShare}
