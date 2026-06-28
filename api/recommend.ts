@@ -123,14 +123,15 @@ ${lockedNote}
 Product catalog:
 ${JSON.stringify(slimProducts)}
 
-Create 3 complete, distinct gym outfits for this user. Each outfit must include exactly one top, one bottom, one pair of shoes, and one accessory.
+Create 3 complete, distinct gym outfits for this user. Each outfit must include exactly 1 top, 1 bottom, 1 pair of shoes, and 1 accessory — no more, no less.
 
 Rules:
 - Every product must match the user's gender field (contains "${answers.gender}" or "unisex")
 - No product price may exceed the user's budget ceiling
 - Prioritize workout type and style vibe as primary filters
-- Each outfit must feel cohesive and complete on its own
-- The 3 outfits should offer real variety — different color stories, silhouettes, or vibe intensity
+- Try to match brands across the outfit (e.g. pair Nike top + Nike bottom + Nike shoes if available, or mix complementary brands that are known to go well together)
+- Each outfit must feel cohesive and complete — colors, silhouette, and vibe should work together
+- The 3 outfits should offer real variety — different brand stories, color palettes, or vibe intensity
 - Never reuse the same product ID across more than one outfit
 - Each reason must be one concise sentence specific to that outfit's overall look
 
