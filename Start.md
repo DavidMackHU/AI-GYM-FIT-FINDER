@@ -17,14 +17,25 @@ Before doing anything else:
 
 | Step | Feature | Status | Notes |
 |------|---------|--------|-------|
-| 1 | Project setup (React + TS + Vite, Tailwind CSS) | ✅ | Vite + React 18 + TS + Tailwind v4 + React Router v6 + Anthropic SDK |
-| 2 | Product catalog (load from products.json) | ✅ | 46 products across 4 categories; placeholder affiliate URLs |
+| 1 | Project setup (React + TS + Vite, Tailwind CSS) | ✅ | Vite + React 18 + TS + Tailwind v4 + React Router v6 |
+| 2 | Product catalog (load from products.json) | ✅ | 96 real Amazon products across 4 categories; fenixfit-20 affiliate tag |
 | 3 | Quiz UI (5-question flow) | ✅ | Step-by-step with progress bar, orange selected state |
-| 4 | Claude AI recommendation engine (Anthropic API) | ✅ | claude-sonnet-4-6, dangerouslyAllowBrowser, JSON parse |
+| 4 | AI recommendation engine (Groq API) | ✅ | llama-3.3-70b-versatile via Vercel serverless function; JSON parse |
 | 5 | Outfit results page (4 items + affiliate links) | ✅ | 2×2 grid, loading screen, error state, affiliate disclosure |
 | 6 | Responsive mobile design | ✅ | Mobile-first Tailwind, sm: breakpoints, min 52px tap targets |
 | 7 | Fenix brand polish (colors, fonts, logo) | ✅ | #0D0D0D bg, #FF6B00 orange, Inter font, dark cards |
-| 8 | Vercel deployment + wearfenix.com domain | ⬜ | |
+| 8 | Multiple outfits feature (3 outfits per session) | ✅ | AI returns 3 distinct outfits; tabbed UI in Results page; no product ID reuse across outfits |
+| 9 | Catalog / Browse page (/catalog) | ✅ | Live search + 6 filter/sort dimensions; 2–4 col responsive grid; "Style This" button; Browse nav link |
+| 10 | Save Favorites (/favorites) | ✅ | Heart icon on every card; localStorage persistence; /favorites page with clear all |
+| 11 | About page (/about) | ✅ | CS student story, stack details, affiliate disclosure, dual CTA |
+| 12 | Outfit sharing | ✅ | "Share this fit" copies /results?q=BASE64 link; shared links decode answers and regenerate |
+| 13 | Refresh individual items | ✅ | ↻ button on each outfit card swaps that slot client-side without API call |
+| 14 | Running outfit total | ✅ | Live price sum for active outfit tab shown above the grid |
+| 15 | Outfit history | ✅ | Last 3 fits saved to localStorage; "Rebuild fit →" button on homepage |
+| 16 | "Style This" feature | ✅ | Catalog → lock a product → AI builds 3 outfits around it |
+| 17 | Staff picks on homepage | ✅ | 8 hand-curated products shown as Editor's Favorites grid |
+| 18 | Best Value badge | ✅ | Orange badge on products under $30 |
+| 19 | Vercel deployment + wearfenix.com domain | ⬜ | |
 
 ---
 

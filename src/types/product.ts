@@ -26,3 +26,7 @@ export interface OutfitRecommendation {
   shoes: { id: string; reason: string };
   accessory: { id: string; reason: string };
 }
+
+export interface OutfitRecommendations {
+  outfits: OutfitRecommendation[];
+}

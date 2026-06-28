@@ -4,15 +4,16 @@ import ProductCard from './ProductCard';
 interface OutfitGridProps {
   outfit: OutfitRecommendation;
   getProduct: (id: string) => Product | undefined;
+  onRefresh?: (category: Product['category']) => void;
 }
 
-export default function OutfitGrid({ outfit, getProduct }: OutfitGridProps) {
+export default function OutfitGrid({ outfit, getProduct, onRefresh }: OutfitGridProps) {
   const slots = [
-    { key: 'top', data: outfit.top },
-    { key: 'bottom', data: outfit.bottom },
-    { key: 'shoes', data: outfit.shoes },
-    { key: 'accessory', data: outfit.accessory },
-  ] as const;
+    { key: 'top' as const, data: outfit.top },
+    { key: 'bottom' as const, data: outfit.bottom },
+    { key: 'shoes' as const, data: outfit.shoes },
+    { key: 'accessory' as const, data: outfit.accessory },
+  ];
 
   return (
     <div className="grid grid-cols-2 gap-4 sm:gap-6">
@@ -20,7 +21,12 @@ export default function OutfitGrid({ outfit, getProduct }: OutfitGridProps) {
         const product = getProduct(data.id);
         if (!product) return null;
         return (
-          <ProductCard key={key} product={product} reason={data.reason} />
+          <ProductCard
+            key={key}
+            product={product}
+            reason={data.reason}
+            onRefresh={onRefresh ? () => onRefresh(key) : undefined}
+          />
         );
       })}
     </div>

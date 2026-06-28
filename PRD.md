@@ -1,6 +1,6 @@
 # Fenix Fit Finder — Product Requirements Document
 
-**Version:** 1.0 (MVP)
+**Version:** 1.1
 **Domain:** wearfenix.com
 **Stack:** React + TypeScript · Vercel (free) · Anthropic Claude API
 **Monetization:** Amazon Associates affiliate links
@@ -13,7 +13,7 @@
 Fenix Fit Finder is an AI-powered gym outfit recommender. Users answer 5 quick questions about their workout style, budget, gender, style preference, and fit preference. Claude AI reads a curated catalog of 30–50 products and returns a complete outfit — one top, one bottom, one pair of shoes, and one accessory — each with a product name, price, one-line reason, and a "Shop This" button linked to an Amazon Associates affiliate URL.
 
 **Core value loop:**
-User answers quiz → Claude picks outfit from catalog → User clicks "Shop This" → Amazon purchase → Affiliate commission
+User answers quiz → AI picks 3 distinct outfits from catalog → User browses outfits via tabs → User clicks "Shop This" → Amazon purchase → Affiliate commission
 
 ---
 
@@ -35,6 +35,32 @@ User answers quiz → Claude picks outfit from catalog → User clicks "Shop Thi
 
 ---
 
+## 16. Catalog / Browse Page (v1.2)
+
+**Route:** `/catalog`
+
+**Purpose:** Let users browse and discover all 96 products without going through the quiz. Drives additional affiliate clicks from users who prefer to shop manually.
+
+**Features:**
+- Live text search (filters by product name as you type)
+- 5 independent filter dimensions, each as pill buttons:
+  - **Category:** All / Tops / Bottoms / Shoes / Accessories
+  - **Gender:** All / Men / Women / Unisex
+  - **Budget:** Any / Under $50 / $50–$100 / $100–$200 / $200+
+  - **Style:** All / Minimal / Bold / All Black / Colorful
+  - **Workout:** All / Lifting / Cardio / HIIT / Yoga / General Gym
+- Active filter count shown in result total ("X items matching your filters")
+- "Clear all filters" button appears when any filter is active
+- Responsive grid: 2 cols (mobile) → 3 cols (sm) → 4 cols (lg)
+- Empty state with "Clear filters" CTA when no products match
+- CTA at bottom: "Want a full outfit matched to your workout? → Get My AI Fit"
+
+**Navigation:** "Browse" link added to Navbar (highlights orange on `/catalog`). FENIX logo links back to home. "Find My Fit" button also visible in Navbar on all pages.
+
+**Components:** `Catalog.tsx` (new), updated `Navbar.tsx`, updated `ProductCard.tsx` (`reason` prop made optional)
+
+---
+
 ## 3. User Flow
 
 ```
@@ -47,10 +73,11 @@ Quiz Page (/quiz)
     → Q4: Gender
     → Q5: Fit preference
     ↓  click "Get My Fit"
-Loading Screen (2–4 sec)
-    ↓  Claude API call resolves
+Loading Screen (3–6 sec)
+    ↓  AI API call resolves
 Results Page (/results)
-    → 4 product cards (top / bottom / shoes / accessory)
+    → 3 outfit tabs (Outfit 1 / Outfit 2 / Outfit 3)
+    → Active tab shows 4 product cards (top / bottom / shoes / accessory)
     → Each card: image, name, price, reason, "Shop This" button
     ↓  click "Shop This"
 Amazon affiliate URL (new tab)
@@ -120,11 +147,12 @@ Amazon affiliate URL (new tab)
 
 ### 4.4 Results Page (`/results`)
 
-**Purpose:** Display the AI-generated outfit and drive affiliate clicks.
+**Purpose:** Display 3 AI-generated outfits and drive affiliate clicks.
 
 **Content:**
-- Header: "YOUR FIT" label + "Built for your [workout type] session"
-- 2×2 grid of 4 ProductCards
+- Header: "YOUR FITS" label + "Built for your [workout type] session" + "[N] complete outfits — pick your favorite"
+- 3-tab switcher: "Outfit 1" / "Outfit 2" / "Outfit 3" (active tab highlighted in orange)
+- Active tab: 2×2 grid of 4 ProductCards
 - "Start Over" link at bottom
 
 **ProductCard structure:**
@@ -133,13 +161,31 @@ Amazon affiliate URL (new tab)
 CATEGORY LABEL (TOP / BOTTOM / SHOES / ACCESSORY)
 Product Name
 $Price
-One-line reason Claude generated
+One-line reason AI generated
 [Shop This →]  ← Amazon affiliate link, opens new tab
 ```
 
 **Affiliate disclosure:** Small italic line below the grid: "As an Amazon Associate, Fenix earns from qualifying purchases."
 
 **Components:** `ResultsPage`, `OutfitGrid`, `ProductCard`
+
+### Multiple Outfits Feature (v1.1)
+
+The AI generates 3 complete, distinct outfits per quiz session instead of 1.
+
+**Variety rules enforced in the AI prompt:**
+- Each outfit uses a unique set of products (no product ID repeated across outfits)
+- Outfits offer different color stories / vibe intensities (e.g. minimal, bold, all-black)
+- All outfits still respect the user's gender, budget, workout type, style, and fit filters
+
+**API response schema:**
+```typescript
+interface OutfitRecommendations {
+  outfits: OutfitRecommendation[]; // always 3
+}
+```
+
+**Timeout:** Increased from 15s to 25s to account for the larger AI response.
 
 ---
 
@@ -175,14 +221,20 @@ interface QuizAnswers {
 }
 ```
 
-### 5.3 Claude API Response Schema
+### 5.3 AI API Response Schema
 
 ```typescript
+// Single outfit (one complete set of 4 items)
 interface OutfitRecommendation {
   top:       { id: string; reason: string };
   bottom:    { id: string; reason: string };
   shoes:     { id: string; reason: string };
   accessory: { id: string; reason: string };
+}
+
+// Full API response — 3 distinct outfits
+interface OutfitRecommendations {
+  outfits: OutfitRecommendation[];
 }
 ```
 
@@ -223,20 +275,30 @@ User profile:
 Product catalog:
 {JSON.stringify(products)}
 
-Select exactly 4 products: one top, one bottom, one pair of shoes, and one accessory.
+Create 3 complete, distinct gym outfits for this user. Each outfit must include exactly
+one top, one bottom, one pair of shoes, and one accessory.
 
 Rules:
-- Each product must match the user's gender (or be unisex)
+- Every product must match the user's gender (or be unisex)
 - No product price may exceed the user's budget ceiling
 - Prioritize workout type and style vibe as primary filters
-- Choose the best combination that looks cohesive together
+- Each outfit must feel cohesive and complete on its own
+- The 3 outfits should offer real variety (different color stories, silhouettes, or vibe
+  intensity) while still fitting the user's filters
+- Never reuse the same product ID across more than one outfit
 
 Respond ONLY with this exact JSON structure:
 {
-  "top":       { "id": "...", "reason": "one sentence why this top fits the user" },
-  "bottom":    { "id": "...", "reason": "one sentence why" },
-  "shoes":     { "id": "...", "reason": "one sentence why" },
-  "accessory": { "id": "...", "reason": "one sentence why" }
+  "outfits": [
+    {
+      "top":       { "id": "...", "reason": "one sentence why" },
+      "bottom":    { "id": "...", "reason": "one sentence why" },
+      "shoes":     { "id": "...", "reason": "one sentence why" },
+      "accessory": { "id": "...", "reason": "one sentence why" }
+    },
+    { ... },
+    { ... }
+  ]
 }
 ```
 
@@ -247,9 +309,9 @@ Respond ONLY with this exact JSON structure:
 
 ### 6.5 Cost Estimate
 - Input tokens per call: ~1,500–2,000 (catalog + prompt)
-- Output tokens per call: ~200
-- Cost per call: ~$0.002 at claude-sonnet-4-6 pricing
-- 1,000 users/month = ~$2.00 in API costs
+- Output tokens per call: ~600 (3× the original single-outfit response)
+- Cost per call: ~$0.00 at Groq free tier (llama-3.3-70b-versatile)
+- 1,000 users/month = effectively $0 on Groq free tier
 
 ---
 
