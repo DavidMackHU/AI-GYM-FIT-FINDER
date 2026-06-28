@@ -91,16 +91,11 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
   const groq = new Groq({ apiKey });
 
-  // Pre-filter and slim down products before sending to AI to stay under token limit
-  const budgetCeiling: Record<QuizAnswers['budget'], number> = {
-    'under-50': 50, '50-100': 100, '100-200': 200, 'no-limit': Infinity,
-  };
-  const ceiling = budgetCeiling[answers.budget];
-
+  // Filter by gender and strip unused fields to reduce token count.
+  // Do NOT filter by budget here — shoes are often above budget ceilings and the AI handles budget in the prompt.
   type SlimProduct = { id: string; category: string; name: string; price: number; gender: string[]; style: string[]; workout: string[]; fit: string[] };
   const slimProducts: SlimProduct[] = (products as SlimProduct[])
     .filter(p =>
-      p.price <= ceiling &&
       Array.isArray(p.gender) &&
       (p.gender.includes(answers.gender) || p.gender.includes('unisex'))
     )
