@@ -1,6 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import Groq from 'groq-sdk';
-import type { QuizAnswers } from '../src/types/product';
+import type { QuizAnswers } from '../src/types/product.js';
 
 // ─── Allowed values (whitelist) ──────────────────────────────────────────────
 const ALLOWED: Record<keyof QuizAnswers, Set<string>> = {
