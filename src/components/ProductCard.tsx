@@ -80,7 +80,7 @@ export default function ProductCard({ product, reason, onRefresh, secondaryActio
           {categoryLabels[product.category]}
         </span>
         <h3 className="text-white text-sm font-medium leading-snug">{product.name}</h3>
-        <p className="text-[#FF6B00] text-sm font-semibold">${product.price}</p>
+        <p className="text-[#FF6B00] text-sm font-semibold">${product.price.toFixed(2)}</p>
         {reason && (
           <p className="text-[#555555] text-xs leading-relaxed flex-1">{reason}</p>
         )}
