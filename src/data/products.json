@@ -1,28 +1,50 @@
-﻿[
+[
   {
     "id": "top-001",
     "category": "top",
-    "name": "Nike Dri-FIT Training Shirt",
-    "price": 36.90,
-    "gender": ["men"],
-    "style": ["minimal"],
-    "workout": ["lifting", "general-gym", "hiit"],
+    "name": "Nike Mens Pro Fitted Short Sleeve Training Tee",
+    "price": 36.9,
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "minimal"
+    ],
+    "workout": [
+      "lifting",
+      "general-gym",
+      "hiit"
+    ],
     "budget_max": 50,
-    "fit": ["regular", "slim"],
-    "affiliate_url": "https://amzn.to/4ewgUCW",
+    "fit": [
+      "regular",
+      "slim"
+    ],
+    "affiliate_url": "https://www.amazon.com/dp/B0BW4PNCW1?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/51Zf3nlsatL._AC_SX679_.jpg"
   },
   {
     "id": "top-002",
     "category": "top",
-    "name": "Under Armour Tech 2.0 Tank",
+    "name": "Under Armour Men's Velocity Muscle Tank Top",
     "price": 22.97,
-    "gender": ["men"],
-    "style": ["minimal", "all-black"],
-    "workout": ["lifting", "hiit"],
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "minimal",
+      "all-black"
+    ],
+    "workout": [
+      "lifting",
+      "hiit"
+    ],
     "budget_max": 50,
-    "fit": ["regular", "slim"],
-    "affiliate_url": "https://amzn.to/4eGDMhP",
+    "fit": [
+      "regular",
+      "slim"
+    ],
+    "affiliate_url": "https://www.amazon.com/dp/B07ZQPFMVN?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/51neGlTKAnL._AC_SX679_.jpg"
   },
   {
@@ -30,11 +52,20 @@
     "category": "top",
     "name": "COOFANDY Men's Oversized Gym T-Shirt",
     "price": 24.99,
-    "gender": ["men"],
-    "style": ["bold"],
-    "workout": ["general-gym", "lifting"],
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "bold"
+    ],
+    "workout": [
+      "general-gym",
+      "lifting"
+    ],
     "budget_max": 50,
-    "fit": ["oversized"],
+    "fit": [
+      "oversized"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0G4M4FD6G?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/41WpVPyRNCL._AC_SX679_.jpg"
   },
@@ -43,11 +74,22 @@
     "category": "top",
     "name": "Lululemon Metal Vent Tech Tee",
     "price": 108,
-    "gender": ["men"],
-    "style": ["minimal", "all-black"],
-    "workout": ["lifting", "cardio", "general-gym"],
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "minimal",
+      "all-black"
+    ],
+    "workout": [
+      "lifting",
+      "cardio",
+      "general-gym"
+    ],
     "budget_max": 200,
-    "fit": ["slim"],
+    "fit": [
+      "slim"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B08K354598?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/61b4QGzCUlL._AC_SX679_.jpg"
   },
@@ -56,11 +98,22 @@
     "category": "top",
     "name": "ODODOS Seamless Padded Sports Bra",
     "price": 17.98,
-    "gender": ["women"],
-    "style": ["minimal", "colorful"],
-    "workout": ["lifting", "yoga", "hiit"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "minimal",
+      "colorful"
+    ],
+    "workout": [
+      "lifting",
+      "yoga",
+      "hiit"
+    ],
     "budget_max": 50,
-    "fit": ["slim"],
+    "fit": [
+      "slim"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0D49PSSBY?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/71rZCHkbvuL._AC_SX679_.jpg"
   },
@@ -69,11 +122,21 @@
     "category": "top",
     "name": "Nike Dri-FIT Indy Light Support Bra",
     "price": 39.99,
-    "gender": ["women"],
-    "style": ["minimal"],
-    "workout": ["cardio", "yoga", "general-gym"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "minimal"
+    ],
+    "workout": [
+      "cardio",
+      "yoga",
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["slim"],
+    "fit": [
+      "slim"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B09MP2BYLR?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/51bo+IuijlS._AC_SX679_.jpg"
   },
@@ -82,11 +145,22 @@
     "category": "top",
     "name": "ODODOS Strappy Sports Bra",
     "price": 17.98,
-    "gender": ["women"],
-    "style": ["colorful", "bold"],
-    "workout": ["hiit", "cardio", "yoga"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "colorful",
+      "bold"
+    ],
+    "workout": [
+      "hiit",
+      "cardio",
+      "yoga"
+    ],
     "budget_max": 50,
-    "fit": ["slim"],
+    "fit": [
+      "slim"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0CWGSWVD5?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/71dosVsyT0L._AC_SX679_.jpg"
   },
@@ -95,11 +169,22 @@
     "category": "top",
     "name": "Colorfulkoala Women's Tank Top",
     "price": 19.99,
-    "gender": ["women"],
-    "style": ["bold", "all-black"],
-    "workout": ["hiit", "lifting", "general-gym"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "bold",
+      "all-black"
+    ],
+    "workout": [
+      "hiit",
+      "lifting",
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["slim"],
+    "fit": [
+      "slim"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B09QQ63R7L?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/81rA5SrAw+L._AC_SX679_.jpg"
   },
@@ -108,11 +193,24 @@
     "category": "top",
     "name": "Champion Reverse Weave Hoodie",
     "price": 20.11,
-    "gender": ["men", "women", "unisex"],
-    "style": ["all-black", "minimal"],
-    "workout": ["general-gym", "cardio"],
+    "gender": [
+      "men",
+      "women",
+      "unisex"
+    ],
+    "style": [
+      "all-black",
+      "minimal"
+    ],
+    "workout": [
+      "general-gym",
+      "cardio"
+    ],
     "budget_max": 50,
-    "fit": ["oversized", "regular"],
+    "fit": [
+      "oversized",
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0746SGMGP?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/71WDHgT5UHL._AC_SX679_.jpg"
   },
@@ -121,11 +219,22 @@
     "category": "top",
     "name": "Under Armour Men's Rival Fleece Hoodie",
     "price": 55,
-    "gender": ["men", "women", "unisex"],
-    "style": ["minimal"],
-    "workout": ["general-gym"],
+    "gender": [
+      "men",
+      "women",
+      "unisex"
+    ],
+    "style": [
+      "minimal"
+    ],
+    "workout": [
+      "general-gym"
+    ],
     "budget_max": 100,
-    "fit": ["regular", "oversized"],
+    "fit": [
+      "regular",
+      "oversized"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0BGVVPZFT?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/41hvpMMIBBL._AC_SX679_.jpg"
   },
@@ -134,11 +243,21 @@
     "category": "top",
     "name": "Under Armour HeatGear Long Sleeve",
     "price": 40,
-    "gender": ["women"],
-    "style": ["minimal"],
-    "workout": ["cardio", "lifting", "general-gym"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "minimal"
+    ],
+    "workout": [
+      "cardio",
+      "lifting",
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["slim"],
+    "fit": [
+      "slim"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0DGW9RQZX?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/616g4Z5SwBL._AC_SX679_.jpg"
   },
@@ -147,11 +266,22 @@
     "category": "top",
     "name": "Colorfulkoala Dreamlux Crop Tank Top",
     "price": 34,
-    "gender": ["women"],
-    "style": ["colorful", "minimal"],
-    "workout": ["yoga", "general-gym"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "colorful",
+      "minimal"
+    ],
+    "workout": [
+      "yoga",
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["slim", "regular"],
+    "fit": [
+      "slim",
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0D2RHDB9J?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/71fzSrvTSeL._AC_SX679_.jpg"
   },
@@ -160,11 +290,20 @@
     "category": "top",
     "name": "Under Armour Men's HeatGear Compression Short-Sleeve T-Shirt",
     "price": 35,
-    "gender": ["men"],
-    "style": ["minimal"],
-    "workout": ["lifting", "general-gym"],
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "minimal"
+    ],
+    "workout": [
+      "lifting",
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["slim"],
+    "fit": [
+      "slim"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0BD474PDD?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/51f8c8cCxdL._AC_SX679_.jpg"
   },
@@ -173,11 +312,20 @@
     "category": "top",
     "name": "2XU Men's Core Compression T-Shirt",
     "price": 59,
-    "gender": ["men"],
-    "style": ["minimal"],
-    "workout": ["lifting", "general-gym"],
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "minimal"
+    ],
+    "workout": [
+      "lifting",
+      "general-gym"
+    ],
     "budget_max": 100,
-    "fit": ["slim"],
+    "fit": [
+      "slim"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B08X2T81PB?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/717dCv-kLNL._AC_SX679_.jpg"
   },
@@ -186,11 +334,20 @@
     "category": "top",
     "name": "COOFANDY Men's 3 Pack Workout Tank Tops",
     "price": 24,
-    "gender": ["men"],
-    "style": ["minimal"],
-    "workout": ["lifting", "general-gym"],
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "minimal"
+    ],
+    "workout": [
+      "lifting",
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B07WX74VX5?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/81RbuMz9NtL._AC_SX679_.jpg"
   },
@@ -199,50 +356,44 @@
     "category": "top",
     "name": "Under Armour Men's HeatGear Compression Sleeveless T-Shirt",
     "price": 30,
-    "gender": ["men"],
-    "style": ["minimal"],
-    "workout": ["lifting", "general-gym"],
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "minimal"
+    ],
+    "workout": [
+      "lifting",
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["slim"],
+    "fit": [
+      "slim"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0DCFLYZ4X?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/511QV1gGTSL._AC_SX679_.jpg"
-  },
-  {
-    "id": "top-017",
-    "category": "top",
-    "name": "CRZ YOGA Women's Seamless Athletic Long Sleeves Workout Top",
-    "price": 24,
-    "gender": ["women"],
-    "style": ["minimal", "colorful"],
-    "workout": ["general-gym", "yoga"],
-    "budget_max": 50,
-    "fit": ["slim"],
-    "affiliate_url": "https://www.amazon.com/dp/B09TP8GFPC?tag=fenixfit-20",
-    "image_url": "https://m.media-amazon.com/images/I/81cQ1C9HTHL._AC_SX679_.jpg"
-  },
-  {
-    "id": "top-018",
-    "category": "top",
-    "name": "Under Armour Women's Rush Long Sleeve Workout Shirt",
-    "price": 17,
-    "gender": ["women"],
-    "style": ["minimal"],
-    "workout": ["general-gym", "lifting"],
-    "budget_max": 50,
-    "fit": ["regular"],
-    "affiliate_url": "https://www.amazon.com/dp/B086DCN879?tag=fenixfit-20",
-    "image_url": "https://m.media-amazon.com/images/I/81N4RpGw6lL._AC_SX679_.jpg"
   },
   {
     "id": "top-019",
     "category": "top",
     "name": "Under Armour Women's UA Infinity High Sports Bra",
     "price": 16,
-    "gender": ["women"],
-    "style": ["minimal", "colorful"],
-    "workout": ["lifting", "general-gym", "cardio"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "minimal",
+      "colorful"
+    ],
+    "workout": [
+      "lifting",
+      "general-gym",
+      "cardio"
+    ],
     "budget_max": 50,
-    "fit": ["slim"],
+    "fit": [
+      "slim"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0C8LM67YW?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/41YjmywNPNL._AC_SX679_.jpg"
   },
@@ -251,11 +402,20 @@
     "category": "top",
     "name": "Amazon Essentials Women's Medium Support Sports Bra",
     "price": 14,
-    "gender": ["women"],
-    "style": ["minimal"],
-    "workout": ["general-gym", "cardio"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "minimal"
+    ],
+    "workout": [
+      "general-gym",
+      "cardio"
+    ],
     "budget_max": 50,
-    "fit": ["slim"],
+    "fit": [
+      "slim"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B08JLFK6MH?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/71y6PfJuqTL._AC_SX679_.jpg"
   },
@@ -264,11 +424,20 @@
     "category": "top",
     "name": "Nike Men's Sportswear Club Fleece Full-Zip Hoodie",
     "price": 69,
-    "gender": ["men"],
-    "style": ["bold", "all-black"],
-    "workout": ["general-gym"],
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "bold",
+      "all-black"
+    ],
+    "workout": [
+      "general-gym"
+    ],
     "budget_max": 100,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B07KD7P223?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/61OuSvg8jhL._AC_SX679_.jpg"
   },
@@ -277,11 +446,23 @@
     "category": "top",
     "name": "Champion Men's Reverse Weave Fleece Pullover Hoodie",
     "price": 45,
-    "gender": ["men", "women", "unisex"],
-    "style": ["bold", "all-black"],
-    "workout": ["general-gym"],
+    "gender": [
+      "men",
+      "women",
+      "unisex"
+    ],
+    "style": [
+      "bold",
+      "all-black"
+    ],
+    "workout": [
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["regular", "oversized"],
+    "fit": [
+      "regular",
+      "oversized"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B00MD9NZJ4?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/91dH10DmVgL._AC_SX679_.jpg"
   },
@@ -290,37 +471,44 @@
     "category": "top",
     "name": "Under Armour Men's Tech 2.0 Short-Sleeve T-Shirt",
     "price": 28,
-    "gender": ["men"],
-    "style": ["bold", "colorful"],
-    "workout": ["lifting", "general-gym"],
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "bold",
+      "colorful"
+    ],
+    "workout": [
+      "lifting",
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0DJ1Q2XX8?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/61aldyWb8UL._AC_SX679_.jpg"
-  },
-  {
-    "id": "top-024",
-    "category": "top",
-    "name": "THE GYM PEOPLE Women's Long Sleeve Fleece Crop Pullover",
-    "price": 36,
-    "gender": ["women"],
-    "style": ["bold"],
-    "workout": ["general-gym"],
-    "budget_max": 50,
-    "fit": ["regular"],
-    "affiliate_url": "https://www.amazon.com/dp/B0BD7BNNSM?tag=fenixfit-20",
-    "image_url": "https://m.media-amazon.com/images/I/61jWN0LhyqL._AC_SX679_.jpg"
   },
   {
     "id": "top-025",
     "category": "top",
     "name": "CRZ YOGA Seamless Workout Tank Tops for Women",
     "price": 28,
-    "gender": ["women"],
-    "style": ["minimal", "colorful"],
-    "workout": ["general-gym", "yoga"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "minimal",
+      "colorful"
+    ],
+    "workout": [
+      "general-gym",
+      "yoga"
+    ],
     "budget_max": 50,
-    "fit": ["slim"],
+    "fit": [
+      "slim"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0D7P5C5JT?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/71SMd-bLvUL._AC_SX679_.jpg"
   },
@@ -329,25 +517,46 @@
     "category": "bottom",
     "name": "Nike Dri-FIT Training Shorts",
     "price": 39.97,
-    "gender": ["men"],
-    "style": ["minimal"],
-    "workout": ["lifting", "general-gym", "hiit"],
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "minimal"
+    ],
+    "workout": [
+      "lifting",
+      "general-gym",
+      "hiit"
+    ],
     "budget_max": 50,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B07C68TP6F?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/61OXom32XxL._AC_SX679_.jpg"
   },
   {
     "id": "bot-002",
     "category": "bottom",
-    "name": "Gradual Men's Gym Workout Shorts",
+    "name": "G Gradual Men's Gym Workout Shorts 5-Inch Zipper Pockets",
     "price": 19.99,
-    "gender": ["men"],
-    "style": ["minimal", "all-black"],
-    "workout": ["cardio", "hiit"],
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "minimal",
+      "all-black"
+    ],
+    "workout": [
+      "cardio",
+      "hiit"
+    ],
     "budget_max": 50,
-    "fit": ["slim", "regular"],
-    "affiliate_url": "https://amzn.to/3SO6gil",
+    "fit": [
+      "slim",
+      "regular"
+    ],
+    "affiliate_url": "https://www.amazon.com/dp/B09PYP8KV1?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/91wmZfiy7HL._AC_SX679_.jpg"
   },
   {
@@ -355,11 +564,21 @@
     "category": "bottom",
     "name": "BALEAF Men's 7\" Running Shorts",
     "price": 23.99,
-    "gender": ["men"],
-    "style": ["all-black"],
-    "workout": ["lifting", "general-gym", "cardio"],
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "all-black"
+    ],
+    "workout": [
+      "lifting",
+      "general-gym",
+      "cardio"
+    ],
     "budget_max": 50,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B01FJNR0XM?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/61WHUDPDbdL._AC_SX679_.jpg"
   },
@@ -368,11 +587,21 @@
     "category": "bottom",
     "name": "G Gradual Men's Gym Workout Shorts",
     "price": 19.99,
-    "gender": ["men"],
-    "style": ["colorful", "bold"],
-    "workout": ["cardio"],
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "colorful",
+      "bold"
+    ],
+    "workout": [
+      "cardio"
+    ],
     "budget_max": 50,
-    "fit": ["regular", "slim"],
+    "fit": [
+      "regular",
+      "slim"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B09PYRPHP4?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/91Tlh5kFrVL._AC_SX679_.jpg"
   },
@@ -381,11 +610,22 @@
     "category": "bottom",
     "name": "CRZ YOGA Butterluxe Yoga Leggings 25\"",
     "price": 32,
-    "gender": ["women"],
-    "style": ["minimal", "colorful"],
-    "workout": ["yoga", "lifting", "general-gym"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "minimal",
+      "colorful"
+    ],
+    "workout": [
+      "yoga",
+      "lifting",
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["slim"],
+    "fit": [
+      "slim"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0CS6C3HF1?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/519-Uqh5pPL._AC_SX679_.jpg"
   },
@@ -394,11 +634,22 @@
     "category": "bottom",
     "name": "Colorfulkoala High Waist Yoga Leggings",
     "price": 22.99,
-    "gender": ["women"],
-    "style": ["colorful", "minimal"],
-    "workout": ["yoga", "cardio", "general-gym"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "colorful",
+      "minimal"
+    ],
+    "workout": [
+      "yoga",
+      "cardio",
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["slim"],
+    "fit": [
+      "slim"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B07QQMH2LF?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/61SIM-PT6kL._AC_SX679_.jpg"
   },
@@ -407,11 +658,22 @@
     "category": "bottom",
     "name": "CRZ YOGA Butterluxe Workout Leggings with Pockets",
     "price": 32,
-    "gender": ["women"],
-    "style": ["all-black", "minimal"],
-    "workout": ["lifting", "hiit", "general-gym"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "all-black",
+      "minimal"
+    ],
+    "workout": [
+      "lifting",
+      "hiit",
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["slim"],
+    "fit": [
+      "slim"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0CQ5MD6HF?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/51gStWyAbYL._AC_SX679_.jpg"
   },
@@ -420,11 +682,21 @@
     "category": "bottom",
     "name": "CRZ YOGA Butterluxe Yoga Leggings 28\"",
     "price": 32,
-    "gender": ["women"],
-    "style": ["minimal"],
-    "workout": ["yoga", "general-gym"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "minimal"
+    ],
+    "workout": [
+      "yoga",
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["slim", "regular"],
+    "fit": [
+      "slim",
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0B7H4T9LD?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/51YfJhH8wyL._AC_SX679_.jpg"
   },
@@ -433,11 +705,20 @@
     "category": "bottom",
     "name": "Under Armour Rival Fleece Joggers",
     "price": 37.73,
-    "gender": ["men"],
-    "style": ["all-black", "minimal"],
-    "workout": ["general-gym"],
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "all-black",
+      "minimal"
+    ],
+    "workout": [
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B07YXN5B43?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/61Urv5dqQqL._AC_SX679_.jpg"
   },
@@ -446,11 +727,21 @@
     "category": "bottom",
     "name": "Champion Men's Fleece Joggers",
     "price": 45,
-    "gender": ["men"],
-    "style": ["minimal", "all-black"],
-    "workout": ["general-gym"],
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "minimal",
+      "all-black"
+    ],
+    "workout": [
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["regular", "slim"],
+    "fit": [
+      "regular",
+      "slim"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B01H7HOR5W?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/41QWB1shasL._AC_SX679_.jpg"
   },
@@ -459,11 +750,23 @@
     "category": "bottom",
     "name": "CRZ YOGA Dolphin Athletic Shorts",
     "price": 28,
-    "gender": ["women"],
-    "style": ["bold", "colorful"],
-    "workout": ["hiit", "cardio", "general-gym"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "bold",
+      "colorful"
+    ],
+    "workout": [
+      "hiit",
+      "cardio",
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["regular", "slim"],
+    "fit": [
+      "regular",
+      "slim"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0B5LMF5F6?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/615qRL1iSnL._AC_SX679_.jpg"
   },
@@ -472,50 +775,44 @@
     "category": "bottom",
     "name": "Under Armour Women's Play Up 3.0 Shorts",
     "price": 30,
-    "gender": ["women"],
-    "style": ["colorful", "minimal"],
-    "workout": ["cardio", "hiit"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "colorful",
+      "minimal"
+    ],
+    "workout": [
+      "cardio",
+      "hiit"
+    ],
     "budget_max": 50,
-    "fit": ["slim", "regular"],
+    "fit": [
+      "slim",
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0C12HXSBV?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/51jWoGmix9L._AC_SX679_.jpg"
-  },
-  {
-    "id": "bot-013",
-    "category": "bottom",
-    "name": "Under Armour Men's HeatGear Long Compression Tights",
-    "price": 64,
-    "gender": ["men"],
-    "style": ["minimal", "all-black"],
-    "workout": ["lifting", "general-gym"],
-    "budget_max": 100,
-    "fit": ["slim"],
-    "affiliate_url": "https://www.amazon.com/dp/B0CKT4SCMF?tag=fenixfit-20",
-    "image_url": "https://m.media-amazon.com/images/I/71JTco-XJ+L._AC_SX679_.jpg"
-  },
-  {
-    "id": "bot-014",
-    "category": "bottom",
-    "name": "Under Armour Men's HeatGear Armour Leggings",
-    "price": 28,
-    "gender": ["men"],
-    "style": ["minimal", "all-black"],
-    "workout": ["lifting", "general-gym"],
-    "budget_max": 50,
-    "fit": ["slim"],
-    "affiliate_url": "https://www.amazon.com/dp/B0CPT562MQ?tag=fenixfit-20",
-    "image_url": "https://m.media-amazon.com/images/I/41FDbO2Bm9L._AC_SX679_.jpg"
   },
   {
     "id": "bot-015",
     "category": "bottom",
     "name": "Nike Men's Club Fleece Sweatpants Joggers",
     "price": 52,
-    "gender": ["men"],
-    "style": ["minimal", "all-black"],
-    "workout": ["general-gym"],
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "minimal",
+      "all-black"
+    ],
+    "workout": [
+      "general-gym"
+    ],
     "budget_max": 100,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0G49XVG2L?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/51YfwJB0BAL._AC_SX679_.jpg"
   },
@@ -524,11 +821,20 @@
     "category": "bottom",
     "name": "adidas Men's Essentials 3-Stripes Fleece Pants",
     "price": 35,
-    "gender": ["men"],
-    "style": ["bold", "colorful"],
-    "workout": ["general-gym"],
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "bold",
+      "colorful"
+    ],
+    "workout": [
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0CZPBPRYP?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/61KM640f2OL._AC_SX679_.jpg"
   },
@@ -537,37 +843,45 @@
     "category": "bottom",
     "name": "Colorfulkoala Women's High Waisted Biker Shorts",
     "price": 19,
-    "gender": ["women"],
-    "style": ["minimal", "all-black"],
-    "workout": ["general-gym", "cardio", "yoga"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "minimal",
+      "all-black"
+    ],
+    "workout": [
+      "general-gym",
+      "cardio",
+      "yoga"
+    ],
     "budget_max": 50,
-    "fit": ["slim"],
+    "fit": [
+      "slim"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B07PDDFGYH?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/51PY1QOXGcL._AC_SX679_.jpg"
-  },
-  {
-    "id": "bot-018",
-    "category": "bottom",
-    "name": "Colorfulkoala Women's High Waisted Seamless Biker Shorts",
-    "price": 19,
-    "gender": ["women"],
-    "style": ["bold", "colorful"],
-    "workout": ["general-gym", "yoga"],
-    "budget_max": 50,
-    "fit": ["slim"],
-    "affiliate_url": "https://www.amazon.com/dp/B097BJM2DJ?tag=fenixfit-20",
-    "image_url": "https://m.media-amazon.com/images/I/613OWpJdPnL._AC_SX679_.jpg"
   },
   {
     "id": "bot-019",
     "category": "bottom",
     "name": "FireSwan Women's Flare Yoga Pants",
     "price": 12,
-    "gender": ["women"],
-    "style": ["bold", "colorful"],
-    "workout": ["yoga", "general-gym"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "bold",
+      "colorful"
+    ],
+    "workout": [
+      "yoga",
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0CJHVK5V9?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/51HT+LY3CnL._AC_SX679_.jpg"
   },
@@ -576,11 +890,20 @@
     "category": "bottom",
     "name": "CRZ YOGA Lightweight Wide Leg Pants for Women",
     "price": 35,
-    "gender": ["women"],
-    "style": ["minimal"],
-    "workout": ["general-gym", "yoga"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "minimal"
+    ],
+    "workout": [
+      "general-gym",
+      "yoga"
+    ],
     "budget_max": 50,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0DGXF2JM4?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/71pRKG-f6tL._AC_SX679_.jpg"
   },
@@ -589,11 +912,21 @@
     "category": "bottom",
     "name": "HeSaYep Women's High Waisted Sweatpants",
     "price": 29,
-    "gender": ["women"],
-    "style": ["bold", "colorful"],
-    "workout": ["general-gym"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "bold",
+      "colorful"
+    ],
+    "workout": [
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["regular", "oversized"],
+    "fit": [
+      "regular",
+      "oversized"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B08CGRT7G5?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/619IhAoylxL._AC_SX679_.jpg"
   },
@@ -602,11 +935,20 @@
     "category": "bottom",
     "name": "Under Armour Women's Armour Fleece Joggers",
     "price": 41,
-    "gender": ["women"],
-    "style": ["minimal", "all-black"],
-    "workout": ["general-gym"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "minimal",
+      "all-black"
+    ],
+    "workout": [
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0FXNQCRVG?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/41T8ft0-jRL._AC_SX679_.jpg"
   },
@@ -615,11 +957,20 @@
     "category": "bottom",
     "name": "baleaf Men's 5\" Running Athletic Shorts",
     "price": 25,
-    "gender": ["men"],
-    "style": ["minimal"],
-    "workout": ["cardio", "general-gym"],
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "minimal"
+    ],
+    "workout": [
+      "cardio",
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B09MK3RZCZ?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/5118YmayL3L._AC_SX679_.jpg"
   },
@@ -628,38 +979,46 @@
     "category": "bottom",
     "name": "ODODOS Women's High Waisted Yoga Leggings",
     "price": 24,
-    "gender": ["women"],
-    "style": ["bold", "colorful"],
-    "workout": ["yoga", "general-gym"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "bold",
+      "colorful"
+    ],
+    "workout": [
+      "yoga",
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["slim"],
+    "fit": [
+      "slim"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B07C5HLGRM?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/716QLOTomtL._AC_SX679_.jpg"
   },
   {
-    "id": "bot-025",
-    "category": "bottom",
-    "name": "adidas Men's Tiro 19 Track Pants",
-    "price": 28,
-    "gender": ["men"],
-    "style": ["bold", "colorful"],
-    "workout": ["general-gym"],
-    "budget_max": 50,
-    "fit": ["regular"],
-    "affiliate_url": "https://www.amazon.com/dp/B07CNDRK14?tag=fenixfit-20",
-    "image_url": "https://m.media-amazon.com/images/I/51bgCOXSWPL._AC_SX679_.jpg"
-  },
-  {
     "id": "shoe-001",
     "category": "shoes",
-    "name": "Nike Metcon 9 Men's Workout Shoe",
+    "name": "Nike Metcon 9 TB Men's Workout Shoes",
     "price": 119.87,
-    "gender": ["men"],
-    "style": ["minimal", "bold"],
-    "workout": ["lifting", "hiit", "general-gym"],
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "minimal",
+      "bold"
+    ],
+    "workout": [
+      "lifting",
+      "hiit",
+      "general-gym"
+    ],
     "budget_max": 200,
-    "fit": ["regular"],
-    "affiliate_url": "https://amzn.to/3SvgPHe",
+    "fit": [
+      "regular"
+    ],
+    "affiliate_url": "https://www.amazon.com/dp/B0DX7H6HW5?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/71aybMrjmDL._AC_SY695_.jpg"
   },
   {
@@ -667,11 +1026,22 @@
     "category": "shoes",
     "name": "Reebok Nano X3 Training Shoe (Men)",
     "price": 165.27,
-    "gender": ["men"],
-    "style": ["minimal", "colorful"],
-    "workout": ["hiit", "lifting", "cardio"],
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "minimal",
+      "colorful"
+    ],
+    "workout": [
+      "hiit",
+      "lifting",
+      "cardio"
+    ],
     "budget_max": 200,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0BJW3Y1QB?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/71XiB0oYzlL._AC_SY695_.jpg"
   },
@@ -679,12 +1049,21 @@
     "id": "shoe-003",
     "category": "shoes",
     "name": "Adidas Powerlift 4 Weightlifting Shoe",
-    "price": 99.90,
-    "gender": ["men"],
-    "style": ["minimal", "all-black"],
-    "workout": ["lifting"],
+    "price": 99.9,
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "minimal",
+      "all-black"
+    ],
+    "workout": [
+      "lifting"
+    ],
     "budget_max": 100,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B07D9LS781?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/71W1QCbBPCL._AC_SY695_.jpg"
   },
@@ -693,11 +1072,21 @@
     "category": "shoes",
     "name": "Nike Air Zoom Pegasus 41 (Men)",
     "price": 98.37,
-    "gender": ["men"],
-    "style": ["colorful", "minimal"],
-    "workout": ["cardio", "general-gym"],
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "colorful",
+      "minimal"
+    ],
+    "workout": [
+      "cardio",
+      "general-gym"
+    ],
     "budget_max": 100,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0DRTYD3CQ?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/61NcYtA+hGL._AC_SY695_.jpg"
   },
@@ -706,11 +1095,20 @@
     "category": "shoes",
     "name": "Brooks Ghost 16 Running Shoe (Men)",
     "price": 144.47,
-    "gender": ["men"],
-    "style": ["minimal", "colorful"],
-    "workout": ["cardio"],
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "minimal",
+      "colorful"
+    ],
+    "workout": [
+      "cardio"
+    ],
     "budget_max": 200,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0D43J3N8B?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/81uwDpAK43L._AC_SY695_.jpg"
   },
@@ -719,11 +1117,20 @@
     "category": "shoes",
     "name": "ASICS Gel-Nimbus 26 (Men)",
     "price": 201.99,
-    "gender": ["men"],
-    "style": ["minimal", "colorful"],
-    "workout": ["cardio"],
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "minimal",
+      "colorful"
+    ],
+    "workout": [
+      "cardio"
+    ],
     "budget_max": 999,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0GY544PDR?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/61MLtIkLx+L._AC_SY695_.jpg"
   },
@@ -732,11 +1139,23 @@
     "category": "shoes",
     "name": "Nike Women's Metcon 9 Training Shoe",
     "price": 149.99,
-    "gender": ["women"],
-    "style": ["minimal", "bold", "colorful"],
-    "workout": ["lifting", "hiit", "general-gym"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "minimal",
+      "bold",
+      "colorful"
+    ],
+    "workout": [
+      "lifting",
+      "hiit",
+      "general-gym"
+    ],
     "budget_max": 200,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0DC6YQ59K?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/61YB2h0GhnL._AC_SY695_.jpg"
   },
@@ -745,11 +1164,21 @@
     "category": "shoes",
     "name": "Reebok Nano X3 Training Shoe (Women)",
     "price": 113.18,
-    "gender": ["women"],
-    "style": ["colorful", "bold"],
-    "workout": ["hiit", "lifting"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "colorful",
+      "bold"
+    ],
+    "workout": [
+      "hiit",
+      "lifting"
+    ],
     "budget_max": 200,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B09ZLQLLRN?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/61chcyvcVRL._AC_SY695_.jpg"
   },
@@ -758,11 +1187,20 @@
     "category": "shoes",
     "name": "New Balance FuelCell SuperComp (Women)",
     "price": 179.93,
-    "gender": ["women"],
-    "style": ["minimal", "colorful"],
-    "workout": ["cardio"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "minimal",
+      "colorful"
+    ],
+    "workout": [
+      "cardio"
+    ],
     "budget_max": 200,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0CLBM9W5D?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/61bNQ3VeFQL._AC_SY695_.jpg"
   },
@@ -771,11 +1209,21 @@
     "category": "shoes",
     "name": "Nike Air Zoom Pegasus 41 (Women)",
     "price": 92.48,
-    "gender": ["women"],
-    "style": ["colorful", "minimal"],
-    "workout": ["cardio", "general-gym"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "colorful",
+      "minimal"
+    ],
+    "workout": [
+      "cardio",
+      "general-gym"
+    ],
     "budget_max": 100,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0D965FBKC?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/71KTci+TWiL._AC_SY695_.jpg"
   },
@@ -784,11 +1232,19 @@
     "category": "shoes",
     "name": "ASICS Women's Gel-Kayano 31 Running Shoes",
     "price": 109.95,
-    "gender": ["women"],
-    "style": ["minimal"],
-    "workout": ["cardio"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "minimal"
+    ],
+    "workout": [
+      "cardio"
+    ],
     "budget_max": 200,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0CN7X6JQT?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/61-ZC8GiRRL._AC_SY695_.jpg"
   },
@@ -797,11 +1253,21 @@
     "category": "shoes",
     "name": "Hoka Clifton 9 (Women)",
     "price": 174.95,
-    "gender": ["women"],
-    "style": ["minimal", "colorful"],
-    "workout": ["cardio", "general-gym"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "minimal",
+      "colorful"
+    ],
+    "workout": [
+      "cardio",
+      "general-gym"
+    ],
     "budget_max": 200,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0BQ78176B?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/51sDnien8sL._AC_SY695_.jpg"
   },
@@ -810,76 +1276,66 @@
     "category": "shoes",
     "name": "Nike Men's Free Metcon 6 Workout Shoe",
     "price": 125,
-    "gender": ["men"],
-    "style": ["minimal", "colorful"],
-    "workout": ["lifting", "general-gym"],
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "minimal",
+      "colorful"
+    ],
+    "workout": [
+      "lifting",
+      "general-gym"
+    ],
     "budget_max": 200,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0DSLVCFRG?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/81jUViscG1L._AC_SY695_.jpg"
-  },
-  {
-    "id": "shoe-014",
-    "category": "shoes",
-    "name": "NOBULL Men's Training Shoe",
-    "price": 116,
-    "gender": ["men"],
-    "style": ["minimal", "all-black"],
-    "workout": ["lifting", "general-gym"],
-    "budget_max": 200,
-    "fit": ["regular"],
-    "affiliate_url": "https://www.amazon.com/dp/B07C3LMDN7?tag=fenixfit-20",
-    "image_url": "https://m.media-amazon.com/images/I/61JAam+yodL._AC_SY695_.jpg"
-  },
-  {
-    "id": "shoe-015",
-    "category": "shoes",
-    "name": "Reebok Men's Nanoflex TR 2.0 Cross Training Shoes",
-    "price": 90,
-    "gender": ["men"],
-    "style": ["minimal"],
-    "workout": ["general-gym", "hiit"],
-    "budget_max": 100,
-    "fit": ["regular"],
-    "affiliate_url": "https://www.amazon.com/dp/B09W68ZZSW?tag=fenixfit-20",
-    "image_url": "https://m.media-amazon.com/images/I/71bDeGrlORL._AC_SY695_.jpg"
   },
   {
     "id": "shoe-016",
     "category": "shoes",
     "name": "Nike Women's Free Metcon 6 Training Shoes",
     "price": 197,
-    "gender": ["women"],
-    "style": ["minimal", "bold"],
-    "workout": ["lifting", "general-gym"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "minimal",
+      "bold"
+    ],
+    "workout": [
+      "lifting",
+      "general-gym"
+    ],
     "budget_max": 200,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0FVFWSCH2?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/61HteG0qtoL._AC_SY695_.jpg"
-  },
-  {
-    "id": "shoe-017",
-    "category": "shoes",
-    "name": "Reebok Women's Energen Lux",
-    "price": 44,
-    "gender": ["women"],
-    "style": ["minimal"],
-    "workout": ["general-gym", "cardio"],
-    "budget_max": 50,
-    "fit": ["regular"],
-    "affiliate_url": "https://www.amazon.com/dp/B0BJSQRGDW?tag=fenixfit-20",
-    "image_url": "https://m.media-amazon.com/images/I/71TdSosYY8L._AC_SY695_.jpg"
   },
   {
     "id": "shoe-018",
     "category": "shoes",
     "name": "Under Armour Women's Charged Commit Trainer 4",
     "price": 80,
-    "gender": ["women"],
-    "style": ["minimal"],
-    "workout": ["lifting", "general-gym"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "minimal"
+    ],
+    "workout": [
+      "lifting",
+      "general-gym"
+    ],
     "budget_max": 100,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0BZXL2RDJ?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/51tJb++Az2L._AC_SY695_.jpg"
   },
@@ -888,37 +1344,42 @@
     "category": "shoes",
     "name": "NOBULL Men's Outwork Weightlifting Shoe",
     "price": 150,
-    "gender": ["men"],
-    "style": ["minimal", "all-black"],
-    "workout": ["lifting"],
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "minimal",
+      "all-black"
+    ],
+    "workout": [
+      "lifting"
+    ],
     "budget_max": 200,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0G3YJLZR2?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/81gx2K+MwDL._AC_SY695_.jpg"
-  },
-  {
-    "id": "shoe-020",
-    "category": "shoes",
-    "name": "adidas Powerlift 5 Weightlifting Shoes",
-    "price": 150,
-    "gender": ["men", "women", "unisex"],
-    "style": ["minimal"],
-    "workout": ["lifting"],
-    "budget_max": 200,
-    "fit": ["regular"],
-    "affiliate_url": "https://www.amazon.com/dp/B09KMXZKC9?tag=fenixfit-20",
-    "image_url": "https://m.media-amazon.com/images/I/41Jx5o-C0lL._AC_SY695_.jpg"
   },
   {
     "id": "shoe-021",
     "category": "shoes",
     "name": "Saucony Women's Ride 17",
     "price": 140,
-    "gender": ["women"],
-    "style": ["minimal", "colorful"],
-    "workout": ["cardio"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "minimal",
+      "colorful"
+    ],
+    "workout": [
+      "cardio"
+    ],
     "budget_max": 200,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0CMB5XQGK?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/71RAgqVVxNL._AC_SY695_.jpg"
   },
@@ -927,11 +1388,20 @@
     "category": "shoes",
     "name": "Brooks Women's Ghost 16 Neutral Running Shoe",
     "price": 149,
-    "gender": ["women"],
-    "style": ["minimal", "all-black"],
-    "workout": ["cardio"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "minimal",
+      "all-black"
+    ],
+    "workout": [
+      "cardio"
+    ],
     "budget_max": 200,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0CMP51Y45?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/710A1Nf73hL._AC_SY695_.jpg"
   },
@@ -940,37 +1410,42 @@
     "category": "shoes",
     "name": "Saucony Men's Guide 17",
     "price": 109,
-    "gender": ["men"],
-    "style": ["minimal", "colorful"],
-    "workout": ["cardio"],
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "minimal",
+      "colorful"
+    ],
+    "workout": [
+      "cardio"
+    ],
     "budget_max": 200,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0C34R9KVX?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/71vm5S3CANL._AC_SY695_.jpg"
-  },
-  {
-    "id": "shoe-024",
-    "category": "shoes",
-    "name": "Xero Shoes Prio Men's Minimalist Barefoot Shoe",
-    "price": 51,
-    "gender": ["men"],
-    "style": ["minimal"],
-    "workout": ["cardio", "general-gym"],
-    "budget_max": 100,
-    "fit": ["regular"],
-    "affiliate_url": "https://www.amazon.com/dp/B079XX6YLL?tag=fenixfit-20",
-    "image_url": "https://m.media-amazon.com/images/I/61QOW7+7smL._AC_SY695_.jpg"
   },
   {
     "id": "shoe-025",
     "category": "shoes",
     "name": "Hoka Men's Clifton 9",
     "price": 145,
-    "gender": ["men"],
-    "style": ["minimal", "colorful"],
-    "workout": ["cardio"],
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "minimal",
+      "colorful"
+    ],
+    "workout": [
+      "cardio"
+    ],
     "budget_max": 200,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0BNXBLG1S?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/611FNCoJBkL._AC_SY695_.jpg"
   },
@@ -979,11 +1454,23 @@
     "category": "accessory",
     "name": "Harbinger Pro Gloves 3.0",
     "price": 21.75,
-    "gender": ["men", "women", "unisex"],
-    "style": ["minimal", "all-black"],
-    "workout": ["lifting", "general-gym"],
+    "gender": [
+      "men",
+      "women",
+      "unisex"
+    ],
+    "style": [
+      "minimal",
+      "all-black"
+    ],
+    "workout": [
+      "lifting",
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0D69FYQLB?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/71dZbn0VsZL._AC_SX679_.jpg"
   },
@@ -992,25 +1479,51 @@
     "category": "accessory",
     "name": "Harbinger 4-Inch Nylon Weightlifting Belt",
     "price": 29.99,
-    "gender": ["men", "women", "unisex"],
-    "style": ["minimal", "all-black"],
-    "workout": ["lifting"],
+    "gender": [
+      "men",
+      "women",
+      "unisex"
+    ],
+    "style": [
+      "minimal",
+      "all-black"
+    ],
+    "workout": [
+      "lifting"
+    ],
     "budget_max": 50,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B01MTYBCIQ?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/81KXO3QatKL._AC_SX679_.jpg"
   },
   {
     "id": "acc-003",
     "category": "accessory",
-    "name": "Hydro Flask 32oz Wide Mouth Bottle",
+    "name": "Hydro Flask 32oz Wide Mouth Insulated Water Bottle",
     "price": 43.25,
-    "gender": ["men", "women", "unisex"],
-    "style": ["minimal", "colorful"],
-    "workout": ["lifting", "cardio", "hiit", "yoga", "general-gym"],
+    "gender": [
+      "men",
+      "women",
+      "unisex"
+    ],
+    "style": [
+      "minimal",
+      "colorful"
+    ],
+    "workout": [
+      "lifting",
+      "cardio",
+      "hiit",
+      "yoga",
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["regular"],
-    "affiliate_url": "https://amzn.to/4bbQ8gS",
+    "fit": [
+      "regular"
+    ],
+    "affiliate_url": "https://www.amazon.com/dp/B07YXM6XTF?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/61ykOOdcunL._AC_SL1500_.jpg"
   },
   {
@@ -1018,11 +1531,26 @@
     "category": "accessory",
     "name": "Nalgene 32oz Wide Mouth Bottle",
     "price": 16.99,
-    "gender": ["men", "women", "unisex"],
-    "style": ["colorful", "minimal"],
-    "workout": ["lifting", "cardio", "hiit", "yoga", "general-gym"],
+    "gender": [
+      "men",
+      "women",
+      "unisex"
+    ],
+    "style": [
+      "colorful",
+      "minimal"
+    ],
+    "workout": [
+      "lifting",
+      "cardio",
+      "hiit",
+      "yoga",
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B002PLU912?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/715SE6ZgTjL._AC_SX679_.jpg"
   },
@@ -1031,11 +1559,26 @@
     "category": "accessory",
     "name": "Nike Brasilia Duffel Bag",
     "price": 42.98,
-    "gender": ["men", "women", "unisex"],
-    "style": ["minimal", "all-black"],
-    "workout": ["lifting", "cardio", "hiit", "yoga", "general-gym"],
+    "gender": [
+      "men",
+      "women",
+      "unisex"
+    ],
+    "style": [
+      "minimal",
+      "all-black"
+    ],
+    "workout": [
+      "lifting",
+      "cardio",
+      "hiit",
+      "yoga",
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B07KR2QGTY?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/41oIQGncyQL._AC_SX679_.jpg"
   },
@@ -1044,11 +1587,26 @@
     "category": "accessory",
     "name": "Under Armour Undeniable 5.0 Duffle Bag",
     "price": 39.95,
-    "gender": ["men", "women", "unisex"],
-    "style": ["all-black", "bold"],
-    "workout": ["lifting", "cardio", "hiit", "yoga", "general-gym"],
+    "gender": [
+      "men",
+      "women",
+      "unisex"
+    ],
+    "style": [
+      "all-black",
+      "bold"
+    ],
+    "workout": [
+      "lifting",
+      "cardio",
+      "hiit",
+      "yoga",
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0C7R21Q9D?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/71AdpvNQZPL._AC_SX679_.jpg"
   },
@@ -1057,11 +1615,25 @@
     "category": "accessory",
     "name": "Halo Headband Sweatband",
     "price": 16.95,
-    "gender": ["men", "women", "unisex"],
-    "style": ["minimal", "colorful"],
-    "workout": ["cardio", "hiit", "yoga", "general-gym"],
+    "gender": [
+      "men",
+      "women",
+      "unisex"
+    ],
+    "style": [
+      "minimal",
+      "colorful"
+    ],
+    "workout": [
+      "cardio",
+      "hiit",
+      "yoga",
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B00S93HQ3E?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/71UF0bIZyDL._AC_SX679_.jpg"
   },
@@ -1070,11 +1642,25 @@
     "category": "accessory",
     "name": "Fit Simplify Resistance Loop Bands (Set of 5)",
     "price": 9.98,
-    "gender": ["men", "women", "unisex"],
-    "style": ["colorful", "minimal"],
-    "workout": ["yoga", "hiit", "general-gym", "cardio"],
+    "gender": [
+      "men",
+      "women",
+      "unisex"
+    ],
+    "style": [
+      "colorful",
+      "minimal"
+    ],
+    "workout": [
+      "yoga",
+      "hiit",
+      "general-gym",
+      "cardio"
+    ],
     "budget_max": 50,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B09MJKJYLQ?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/71S4-NjoTDL._AC_SX679_.jpg"
   },
@@ -1083,11 +1669,24 @@
     "category": "accessory",
     "name": "Gymreapers Wrist Wraps",
     "price": 14.99,
-    "gender": ["men", "women", "unisex"],
-    "style": ["minimal", "all-black", "bold"],
-    "workout": ["lifting", "hiit"],
+    "gender": [
+      "men",
+      "women",
+      "unisex"
+    ],
+    "style": [
+      "minimal",
+      "all-black",
+      "bold"
+    ],
+    "workout": [
+      "lifting",
+      "hiit"
+    ],
     "budget_max": 50,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B07FMQP4LR?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/71xkYR1MQRL._AC_SX679_.jpg"
   },
@@ -1096,11 +1695,24 @@
     "category": "accessory",
     "name": "SPIbelt Running Belt",
     "price": 29.99,
-    "gender": ["men", "women", "unisex"],
-    "style": ["minimal", "colorful"],
-    "workout": ["cardio", "yoga", "general-gym"],
+    "gender": [
+      "men",
+      "women",
+      "unisex"
+    ],
+    "style": [
+      "minimal",
+      "colorful"
+    ],
+    "workout": [
+      "cardio",
+      "yoga",
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B09SK6KZSN?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/71wn5Co7MfL._AC_SX679_.jpg"
   },
@@ -1109,11 +1721,23 @@
     "category": "accessory",
     "name": "Gymreapers Knee Sleeves 7MM (1 Pair)",
     "price": 59,
-    "gender": ["men", "women", "unisex"],
-    "style": ["minimal", "all-black"],
-    "workout": ["lifting", "general-gym"],
+    "gender": [
+      "men",
+      "women",
+      "unisex"
+    ],
+    "style": [
+      "minimal",
+      "all-black"
+    ],
+    "workout": [
+      "lifting",
+      "general-gym"
+    ],
     "budget_max": 100,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B01G6C1R8O?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/71p9mIEYIxS._AC_SX679_.jpg"
   },
@@ -1122,11 +1746,22 @@
     "category": "accessory",
     "name": "Gymreapers Lifting Wrist Straps",
     "price": 14,
-    "gender": ["men", "women", "unisex"],
-    "style": ["minimal", "all-black"],
-    "workout": ["lifting"],
+    "gender": [
+      "men",
+      "women",
+      "unisex"
+    ],
+    "style": [
+      "minimal",
+      "all-black"
+    ],
+    "workout": [
+      "lifting"
+    ],
     "budget_max": 50,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B07BB4463X?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/61+UlXddzxL._AC_SX679_.jpg"
   },
@@ -1135,11 +1770,20 @@
     "category": "accessory",
     "name": "Harbinger Women's Pro Weightlifting Gloves",
     "price": 19,
-    "gender": ["women"],
-    "style": ["minimal"],
-    "workout": ["lifting", "general-gym"],
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "minimal"
+    ],
+    "workout": [
+      "lifting",
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B07L748VSV?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/91lRVKgvT4L._AC_SX679_.jpg"
   },
@@ -1148,37 +1792,51 @@
     "category": "accessory",
     "name": "WOD Nation Attack Speed Jump Rope",
     "price": 18,
-    "gender": ["men", "women", "unisex"],
-    "style": ["minimal"],
-    "workout": ["hiit", "cardio", "general-gym"],
+    "gender": [
+      "men",
+      "women",
+      "unisex"
+    ],
+    "style": [
+      "minimal"
+    ],
+    "workout": [
+      "hiit",
+      "cardio",
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B06XPH9TCZ?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/71k3hT3rqoL._AC_SX679_.jpg"
-  },
-  {
-    "id": "acc-015",
-    "category": "accessory",
-    "name": "TriggerPoint GRID Foam Roller 13-Inch",
-    "price": 29,
-    "gender": ["men", "women", "unisex"],
-    "style": ["minimal"],
-    "workout": ["general-gym", "yoga", "cardio"],
-    "budget_max": 50,
-    "fit": ["regular"],
-    "affiliate_url": "https://www.amazon.com/dp/B07JGM74B5?tag=fenixfit-20",
-    "image_url": "https://m.media-amazon.com/images/I/81+vsqACYpL._AC_SX679_.jpg"
   },
   {
     "id": "acc-016",
     "category": "accessory",
     "name": "Wuwahold Microfiber Gym Towels 3 Pack",
     "price": 8,
-    "gender": ["men", "women", "unisex"],
-    "style": ["minimal", "colorful"],
-    "workout": ["lifting", "cardio", "hiit", "yoga", "general-gym"],
+    "gender": [
+      "men",
+      "women",
+      "unisex"
+    ],
+    "style": [
+      "minimal",
+      "colorful"
+    ],
+    "workout": [
+      "lifting",
+      "cardio",
+      "hiit",
+      "yoga",
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B09ZYNCJS1?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/711-Vp7eFDL._AC_SX679_.jpg"
   },
@@ -1187,11 +1845,25 @@
     "category": "accessory",
     "name": "BlenderBottle Classic Shaker Bottle 28oz",
     "price": 22,
-    "gender": ["men", "women", "unisex"],
-    "style": ["minimal", "all-black"],
-    "workout": ["lifting", "cardio", "hiit", "general-gym"],
+    "gender": [
+      "men",
+      "women",
+      "unisex"
+    ],
+    "style": [
+      "minimal",
+      "all-black"
+    ],
+    "workout": [
+      "lifting",
+      "cardio",
+      "hiit",
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B01LX4GTDW?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/41W52ukYnJL._AC_SX679_.jpg"
   },
@@ -1200,11 +1872,24 @@
     "category": "accessory",
     "name": "Jabra Elite 4 Active In-Ear Bluetooth Earbuds",
     "price": 49,
-    "gender": ["men", "women", "unisex"],
-    "style": ["minimal", "all-black"],
-    "workout": ["cardio", "hiit", "general-gym"],
+    "gender": [
+      "men",
+      "women",
+      "unisex"
+    ],
+    "style": [
+      "minimal",
+      "all-black"
+    ],
+    "workout": [
+      "cardio",
+      "hiit",
+      "general-gym"
+    ],
     "budget_max": 50,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B09MVGQRDD?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/6153kh8CbDL._AC_SX679_.jpg"
   },
@@ -1213,11 +1898,22 @@
     "category": "accessory",
     "name": "Gymreapers Weight Lifting Belt 7MM",
     "price": 59,
-    "gender": ["men", "women", "unisex"],
-    "style": ["minimal", "all-black"],
-    "workout": ["lifting"],
+    "gender": [
+      "men",
+      "women",
+      "unisex"
+    ],
+    "style": [
+      "minimal",
+      "all-black"
+    ],
+    "workout": [
+      "lifting"
+    ],
     "budget_max": 100,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B081VVFSJF?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/41YGqcC6HiL._AC_SX679_.jpg"
   },
@@ -1226,11 +1922,24 @@
     "category": "accessory",
     "name": "Bodylastics Resistance Band Set",
     "price": 35,
-    "gender": ["men", "women", "unisex"],
-    "style": ["colorful", "bold"],
-    "workout": ["general-gym", "hiit", "yoga"],
+    "gender": [
+      "men",
+      "women",
+      "unisex"
+    ],
+    "style": [
+      "colorful",
+      "bold"
+    ],
+    "workout": [
+      "general-gym",
+      "hiit",
+      "yoga"
+    ],
     "budget_max": 50,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0C63CJZ98?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/61tJOdxeUxL._AC_SX679_.jpg"
   },
@@ -1239,12 +1948,481 @@
     "category": "accessory",
     "name": "FrictionLabs Gym Chalk Magic Ball",
     "price": 9,
-    "gender": ["men", "women", "unisex"],
-    "style": ["minimal"],
-    "workout": ["lifting"],
+    "gender": [
+      "men",
+      "women",
+      "unisex"
+    ],
+    "style": [
+      "minimal"
+    ],
+    "workout": [
+      "lifting"
+    ],
     "budget_max": 50,
-    "fit": ["regular"],
+    "fit": [
+      "regular"
+    ],
     "affiliate_url": "https://www.amazon.com/dp/B0G75R3L1J?tag=fenixfit-20",
     "image_url": "https://m.media-amazon.com/images/I/81nTfqkFYfL._AC_SX679_.jpg"
+  },
+  {
+    "id": "top-026",
+    "category": "top",
+    "name": "Under Armour Men's Tech 2.0 Short-Sleeve T-Shirt",
+    "price": 19,
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "minimal",
+      "all-black"
+    ],
+    "workout": [
+      "lifting",
+      "general-gym",
+      "cardio"
+    ],
+    "budget_max": 50,
+    "fit": [
+      "regular"
+    ],
+    "affiliate_url": "https://www.amazon.com/dp/B07D126W6P?tag=fenixfit-20",
+    "image_url": "https://m.media-amazon.com/images/I/81cX5SrwD8L._AC_SX679_.jpg"
+  },
+  {
+    "id": "top-027",
+    "category": "top",
+    "name": "Men's Quick Dry Workout Gym Shirts Short Sleeve Athletic T-Shirt",
+    "price": 15,
+    "gender": [
+      "men",
+      "unisex"
+    ],
+    "style": [
+      "minimal",
+      "colorful"
+    ],
+    "workout": [
+      "cardio",
+      "hiit",
+      "general-gym"
+    ],
+    "budget_max": 50,
+    "fit": [
+      "regular"
+    ],
+    "affiliate_url": "https://www.amazon.com/dp/B09VZ22NHZ?tag=fenixfit-20",
+    "image_url": "https://m.media-amazon.com/images/I/71WA2+F5zCL._AC_SX679_.jpg"
+  },
+  {
+    "id": "top-028",
+    "category": "top",
+    "name": "G Gradual Men's Athletic Dry Fit Moisture Wicking Workout Gym T-Shirts",
+    "price": 17,
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "minimal",
+      "colorful"
+    ],
+    "workout": [
+      "cardio",
+      "hiit",
+      "general-gym"
+    ],
+    "budget_max": 50,
+    "fit": [
+      "regular"
+    ],
+    "affiliate_url": "https://www.amazon.com/dp/B0GT3SF7TV?tag=fenixfit-20",
+    "image_url": "https://m.media-amazon.com/images/I/71OccxmB+CL._AC_SX679_.jpg"
+  },
+  {
+    "id": "top-029",
+    "category": "top",
+    "name": "Pudolla Men's Lightweight Quick Dry Athletic Short Sleeve Gym Shirts",
+    "price": 20,
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "minimal"
+    ],
+    "workout": [
+      "cardio",
+      "lifting",
+      "general-gym"
+    ],
+    "budget_max": 50,
+    "fit": [
+      "regular"
+    ],
+    "affiliate_url": "https://www.amazon.com/dp/B0F4KKTX7Y?tag=fenixfit-20",
+    "image_url": "https://m.media-amazon.com/images/I/71n8O2Jm3uL._AC_SX679_.jpg"
+  },
+  {
+    "id": "top-030",
+    "category": "top",
+    "name": "Women's Workout Racerback Tank Top Seamless Padded Athletic Camisole",
+    "price": 25,
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "minimal",
+      "bold",
+      "colorful"
+    ],
+    "workout": [
+      "cardio",
+      "hiit",
+      "yoga",
+      "general-gym"
+    ],
+    "budget_max": 50,
+    "fit": [
+      "slim"
+    ],
+    "affiliate_url": "https://www.amazon.com/dp/B0G9T7YGKM?tag=fenixfit-20",
+    "image_url": "https://m.media-amazon.com/images/I/71gAOYOliwL._AC_SX679_.jpg"
+  },
+  {
+    "id": "bot-026",
+    "category": "bottom",
+    "name": "Men's Running Compression Tights Leggings Athletic Workout Gym Pants",
+    "price": 20,
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "all-black",
+      "minimal"
+    ],
+    "workout": [
+      "lifting",
+      "cardio",
+      "hiit",
+      "general-gym"
+    ],
+    "budget_max": 50,
+    "fit": [
+      "slim"
+    ],
+    "affiliate_url": "https://www.amazon.com/dp/B08F3KR286?tag=fenixfit-20",
+    "image_url": "https://m.media-amazon.com/images/I/61JjqoIlZ6S._AC_SX679_.jpg"
+  },
+  {
+    "id": "bot-027",
+    "category": "bottom",
+    "name": "Men's Quick Dry Cool Compression Fit Tights Leggings",
+    "price": 15,
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "all-black",
+      "minimal"
+    ],
+    "workout": [
+      "lifting",
+      "cardio",
+      "hiit"
+    ],
+    "budget_max": 50,
+    "fit": [
+      "slim"
+    ],
+    "affiliate_url": "https://www.amazon.com/dp/B0BQ7472Z8?tag=fenixfit-20",
+    "image_url": "https://m.media-amazon.com/images/I/51cW42QTl3L._AC_SX679_.jpg"
+  },
+  {
+    "id": "bot-028",
+    "category": "bottom",
+    "name": "Men's 3/4 Compression Pants with Pockets Athletic Workout Tights",
+    "price": 20,
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "all-black",
+      "minimal"
+    ],
+    "workout": [
+      "lifting",
+      "cardio",
+      "hiit"
+    ],
+    "budget_max": 50,
+    "fit": [
+      "slim"
+    ],
+    "affiliate_url": "https://www.amazon.com/dp/B08H8SNYRR?tag=fenixfit-20",
+    "image_url": "https://m.media-amazon.com/images/I/71+KJA66P+S._AC_SX679_.jpg"
+  },
+  {
+    "id": "bot-029",
+    "category": "bottom",
+    "name": "Men's Compression Running Pants Quick Dry Workout Tights Leggings",
+    "price": 14,
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "all-black",
+      "minimal"
+    ],
+    "workout": [
+      "lifting",
+      "cardio",
+      "general-gym"
+    ],
+    "budget_max": 50,
+    "fit": [
+      "slim"
+    ],
+    "affiliate_url": "https://www.amazon.com/dp/B01A09MPIU?tag=fenixfit-20",
+    "image_url": "https://m.media-amazon.com/images/I/71a0FGfnQML._AC_SX679_.jpg"
+  },
+  {
+    "id": "bot-030",
+    "category": "bottom",
+    "name": "Women's 2 Pack High Waist Yoga Pants Pockets Tummy Control Workout Leggings",
+    "price": 28,
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "minimal",
+      "all-black"
+    ],
+    "workout": [
+      "yoga",
+      "cardio",
+      "general-gym"
+    ],
+    "budget_max": 50,
+    "fit": [
+      "slim"
+    ],
+    "affiliate_url": "https://www.amazon.com/dp/B081T3NZZJ?tag=fenixfit-20",
+    "image_url": "https://m.media-amazon.com/images/I/61Xze9jhowL._AC_SX679_.jpg"
+  },
+  {
+    "id": "shoe-026",
+    "category": "shoes",
+    "name": "Under Armour Men's Charged Assert 10 Running Shoe",
+    "price": 49,
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "minimal",
+      "all-black"
+    ],
+    "workout": [
+      "cardio",
+      "general-gym",
+      "hiit"
+    ],
+    "budget_max": 50,
+    "fit": [
+      "regular"
+    ],
+    "affiliate_url": "https://www.amazon.com/dp/B0BGQLY4H7?tag=fenixfit-20",
+    "image_url": "https://m.media-amazon.com/images/I/513HY1ZoyiL._AC_SX679_.jpg"
+  },
+  {
+    "id": "shoe-027",
+    "category": "shoes",
+    "name": "Men's Barefoot Zero Drop Minimalist Gym Training Sneakers",
+    "price": 42,
+    "gender": [
+      "men",
+      "unisex"
+    ],
+    "style": [
+      "minimal"
+    ],
+    "workout": [
+      "lifting",
+      "general-gym"
+    ],
+    "budget_max": 50,
+    "fit": [
+      "slim"
+    ],
+    "affiliate_url": "https://www.amazon.com/dp/B0D2GZS6GN?tag=fenixfit-20",
+    "image_url": "https://m.media-amazon.com/images/I/71Fq9WRwdFL._AC_SX679_.jpg"
+  },
+  {
+    "id": "shoe-028",
+    "category": "shoes",
+    "name": "MANUEKLEAR Deadlift Weightlifting Squat Cross-Training Shoes",
+    "price": 32,
+    "gender": [
+      "men",
+      "women",
+      "unisex"
+    ],
+    "style": [
+      "minimal"
+    ],
+    "workout": [
+      "lifting"
+    ],
+    "budget_max": 50,
+    "fit": [
+      "regular"
+    ],
+    "affiliate_url": "https://www.amazon.com/dp/B0BK469T9D?tag=fenixfit-20",
+    "image_url": "https://m.media-amazon.com/images/I/717Ksqpl7GL._AC_SX679_.jpg"
+  },
+  {
+    "id": "shoe-029",
+    "category": "shoes",
+    "name": "Men's Wide Toe Box Barefoot Zero Drop Gym Training Minimalist Sneakers",
+    "price": 42,
+    "gender": [
+      "men"
+    ],
+    "style": [
+      "minimal"
+    ],
+    "workout": [
+      "lifting",
+      "general-gym"
+    ],
+    "budget_max": 50,
+    "fit": [
+      "regular"
+    ],
+    "affiliate_url": "https://www.amazon.com/dp/B0G38269JK?tag=fenixfit-20",
+    "image_url": "https://m.media-amazon.com/images/I/715cF+l4vTL._AC_SX679_.jpg"
+  },
+  {
+    "id": "shoe-030",
+    "category": "shoes",
+    "name": "Under Armour Women's Charged Assert 10 Running Shoe",
+    "price": 49,
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "minimal",
+      "all-black"
+    ],
+    "workout": [
+      "cardio",
+      "general-gym",
+      "hiit"
+    ],
+    "budget_max": 50,
+    "fit": [
+      "regular"
+    ],
+    "affiliate_url": "https://www.amazon.com/dp/B09XBWPDZJ?tag=fenixfit-20",
+    "image_url": "https://m.media-amazon.com/images/I/61RShTIZazL._AC_SX679_.jpg"
+  },
+  {
+    "id": "acc-022",
+    "category": "accessory",
+    "name": "ATERCEL Workout Gloves for Men and Women Exercise Weight Lifting Gym",
+    "price": 14,
+    "gender": [
+      "men",
+      "women",
+      "unisex"
+    ],
+    "style": [
+      "minimal"
+    ],
+    "workout": [
+      "lifting",
+      "cardio",
+      "hiit",
+      "general-gym"
+    ],
+    "budget_max": 50,
+    "fit": [
+      "regular"
+    ],
+    "affiliate_url": "https://www.amazon.com/dp/B07NJTFX44?tag=fenixfit-20",
+    "image_url": "https://m.media-amazon.com/images/I/71ssIG3SZ1L._AC_SX679_.jpg"
+  },
+  {
+    "id": "acc-023",
+    "category": "accessory",
+    "name": "Workout Gloves for Women Palm Protection Enhanced Grip Padded Weight Lifting",
+    "price": 15,
+    "gender": [
+      "women"
+    ],
+    "style": [
+      "minimal"
+    ],
+    "workout": [
+      "lifting",
+      "cardio",
+      "general-gym"
+    ],
+    "budget_max": 50,
+    "fit": [
+      "regular"
+    ],
+    "affiliate_url": "https://www.amazon.com/dp/B08R6CQ3KV?tag=fenixfit-20",
+    "image_url": "https://m.media-amazon.com/images/I/81ljMSzVJOL._AC_SX679_.jpg"
+  },
+  {
+    "id": "acc-024",
+    "category": "accessory",
+    "name": "ihuan Breathable Weight Lifting Gym Gloves Fingerless Wrist Support",
+    "price": 13,
+    "gender": [
+      "men",
+      "women",
+      "unisex"
+    ],
+    "style": [
+      "minimal"
+    ],
+    "workout": [
+      "lifting",
+      "general-gym"
+    ],
+    "budget_max": 50,
+    "fit": [
+      "regular"
+    ],
+    "affiliate_url": "https://www.amazon.com/dp/B093BXHS3P?tag=fenixfit-20",
+    "image_url": "https://m.media-amazon.com/images/I/81RJHDhyRjL._AC_SX679_.jpg"
+  },
+  {
+    "id": "acc-025",
+    "category": "accessory",
+    "name": "POWER GUIDANCE Resistance Bands Pull Up Assistance Loop Bands 5 Pack",
+    "price": 27,
+    "gender": [
+      "men",
+      "women",
+      "unisex"
+    ],
+    "style": [
+      "minimal",
+      "colorful"
+    ],
+    "workout": [
+      "lifting",
+      "hiit",
+      "general-gym",
+      "yoga"
+    ],
+    "budget_max": 50,
+    "fit": [
+      "regular"
+    ],
+    "affiliate_url": "https://www.amazon.com/dp/B0CMXFR14M?tag=fenixfit-20",
+    "image_url": "https://m.media-amazon.com/images/I/7185ubP6neL._AC_SX679_.jpg"
   }
 ]

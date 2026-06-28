@@ -7,8 +7,8 @@ import ProductCard from '../components/ProductCard';
 
 // Hand-curated staff picks — update IDs to highlight your best products
 const STAFF_PICK_IDS = [
-  'top-001', 'top-007', 'bottom-003', 'bottom-010',
-  'shoes-002', 'shoes-008', 'acc-001', 'acc-006',
+  'top-001', 'top-007', 'bot-003', 'bot-010',
+  'shoe-002', 'shoe-008', 'acc-001', 'acc-006',
 ];
 
 const workoutLabels: Record<string, string> = {
