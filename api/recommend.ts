@@ -91,6 +91,23 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
   const groq = new Groq({ apiKey });
 
+  // Pre-filter and slim down products before sending to AI to stay under token limit
+  const budgetCeiling: Record<QuizAnswers['budget'], number> = {
+    'under-50': 50, '50-100': 100, '100-200': 200, 'no-limit': Infinity,
+  };
+  const ceiling = budgetCeiling[answers.budget];
+
+  type SlimProduct = { id: string; category: string; name: string; price: number; gender: string[]; style: string[]; workout: string[]; fit: string[] };
+  const slimProducts: SlimProduct[] = (products as SlimProduct[])
+    .filter(p =>
+      p.price <= ceiling &&
+      Array.isArray(p.gender) &&
+      (p.gender.includes(answers.gender) || p.gender.includes('unisex'))
+    )
+    .map(({ id, category, name, price, gender, style, workout, fit }) =>
+      ({ id, category, name, price, gender, style, workout, fit })
+    );
+
   const lockedNote = lockedProduct
     ? `\nThe user wants outfits that complement: "${lockedProduct.name}" (${lockedProduct.category}). Pick the best items for the other slots to go with it.\n`
     : '';
@@ -104,7 +121,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 - Fit preference: ${answers.fit}
 ${lockedNote}
 Product catalog:
-${JSON.stringify(products)}
+${JSON.stringify(slimProducts)}
 
 Create 3 complete, distinct gym outfits for this user. Each outfit must include exactly one top, one bottom, one pair of shoes, and one accessory.
 
